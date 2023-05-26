@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+main{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+#btn {
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.btn-none{
+    display: none;
+}
+
+#griglia{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+
+.quadrati{
+    width: calc(800px / 10);
+    height: calc(800px / 10);
+    border: 2px solid white;
+    background: rgb(9, 57, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.change {
+    background-color: aquamarine;
+}
