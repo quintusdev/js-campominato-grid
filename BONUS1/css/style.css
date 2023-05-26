@@ -4,36 +4,40 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* STYLE STRUTTURA */
 header{
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(143, 89, 8);
 }
 
 main{
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: rgb(143, 89, 8);
 }
 
 /* STYLE HEADER */
 h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
-    color: rgb(207, 207, 207);
+    color: whitesmoke;
     margin-right: 150px;
 }
 
 h4{
     font-size: 25px;
     font-weight: 600;
-    color: rgb(207, 207, 207);
+    color: whitesmoke;
     margin: 0 30px;
 }
 
@@ -56,10 +60,6 @@ select{
     background-color: #fff;
     font-size: 18px;
     font-weight: 700;
-}
-
-.btn-none{
-    display: none;
 }
 
 /* STYLE MAIN */

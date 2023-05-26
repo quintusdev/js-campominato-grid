@@ -17,6 +17,9 @@ const griglia = document.getElementById('griglia');
 
 btn.addEventListener('click', function(){
 
+    //tolgo il contenuto dalla griglia quando ho finito di visualizzare
+    griglia.innerHTML = '';
+    
     // Ottengo il valore selezionato dall'elemento <select>
     let difscelta = selectElement.value;
 
@@ -30,9 +33,6 @@ btn.addEventListener('click', function(){
         let quadrato = createSquare();
         quadrato.classList.add('quadrati');
         quadrato.innerText = i + 1;
-
-        //VISUALIZZO IL NUMERO DI OGN QUADRATO IN CONSOLE
-        //console.log(counter);
 
         //CREO L'EVENTO AL CLICK DEL BOTTONE CHE CAMBI COLORE
         quadrato.addEventListener('click', function(){
@@ -87,8 +87,7 @@ btn.addEventListener('click', function(){
         griglia.append(quadrato);
         }
     }
-    //FACCIO IN MODO CHE NON SI POSSANO CREARE PIU' TABELLE UNA SOTTO L'ALTRA NASCODENDO IL BOTTONE
-    btn.classList.add('btn-none');
+    
 });
 
 
