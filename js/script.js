@@ -28,6 +28,7 @@ btn.addEventListener('click', function(){
         console.log(quadrato.innerText);
     });
 
+    //MOSTRO A VIDEO LA GRIGLIA
     griglia.append(quadrato);
     }
 
